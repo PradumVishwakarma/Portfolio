@@ -1,0 +1,448 @@
+@media (max-width: 1150px) {
+    nav {
+        width: 72%;
+    }
+
+    #main {
+        font-size: 2.1rem;
+    }
+
+    .main-contain button {
+        height: 45px;
+        width: 60px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+    .project-box {
+        height: 400px;
+        width: 200px;
+    }
+
+    .project-img {
+        height: 29%;
+        margin-top: -50px;
+    }
+
+}
+
+
+@media (max-width: 950px) {
+    nav {
+        width: 40%;
+    }
+
+    .menu-bar i {
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+
+    .menu-bar {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul {
+        visibility: hidden;
+    }
+
+    #nav.change ul {
+        visibility: visible;
+    }
+
+    #nav.change nav {
+        height: 100%;
+        margin-top: 10%;
+    }
+
+    #nav.change nav ul {
+        display: block;
+    }
+
+    #nav.change {
+        width: 71.5%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(26, 25, 25);
+        transition: all 0.5s ease-out;
+        flex-direction: column;
+        gap: 40px;
+        position: fixed;
+        z-index: 50;
+        margin-top: 111%;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-left: 10px;
+    }
+
+    #nav.change ul {
+        height: 80%;
+        flex-direction: column;
+        gap: 50px;
+        margin-right: 0px;
+    }
+
+    #nav.change li {
+        font-size: 2.2rem;
+    }
+
+    #nav.change .menu-bar {
+        display: none;
+    }
+
+    #nav.change .wrong {
+        height: 50px;
+        width: 100%;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav.change .wrong i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+    }
+
+    .menu-bar {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .nav-left {
+        position: relative;
+        width: 70%;
+        margin-left: 625px;
+    }
+
+    .nav-right {
+        position: relative;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .nav-left {
+        margin-left: 590px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav-left {
+        margin-left: 555px;
+    }
+
+    #nav.change {
+        margin-top: 625px;
+        height: 104vh;
+        width: 71%;
+    }
+
+    .nav-right {
+        width: 75%;
+    }
+
+    .social {
+        width: 75%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav-left {
+        margin-left: 520px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-left {
+        margin-left: 480px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-left {
+        margin-left: 440px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-left {
+        margin-left: 400px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    nav {
+        width: 16%;
+    }
+
+    .menu-bar {
+        width: 80%;
+    }
+}
+
+@media (max-width: 550px) {
+    .nav-left {
+        margin-left: 360px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-left {
+        margin-left: 340px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav-left {
+        margin-left: 300px;
+    }
+
+    #nav.change {
+        width: 81%;
+        height: 104vh;
+        margin-top: 650px;
+    }
+
+    .nav-right {
+        width: 85%;
+    }
+
+    .social {
+        width: 90%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .project-img {
+        height: 30%;
+        margin-top: -50px;
+    }
+
+    .project-box {
+        height: 400px;
+        width: 200px;
+    }
+
+    .mate i {
+        width: 70%;
+    }
+
+    .mate1 i {
+        width: 100%;
+    }
+
+    .mate2 i {
+        width: 90%;
+    }
+
+    .mate3 i {
+        width: 85%;
+    }
+    nav {
+        width: 19%;
+    }
+
+    .menu-bar {
+        width: 65%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .nav-left {
+        margin-left: 280px;
+        width: 90%;
+    }
+
+    #nav.change {
+        width: 81%;
+        margin-top: 640px;
+        height: 104vh;
+        margin-left: 20px;
+    }
+
+    .project-img {
+        margin-top: -30px;
+    }
+
+    .project-box {
+        height: 450px;
+        width: 210px;
+    }
+
+    .social {
+        width: 100%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .nav-right {
+        width: 85%;
+    }
+
+    .main-contain {
+        width: 24vb;
+    }
+
+    .menu-bar {
+        width: 60%;
+    }
+
+    #material-txt1 {
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    .boxs {
+        height: 150px;
+    }
+
+    .mate i {
+        width: 70%;
+    }
+
+    .mate1 i {
+        width: 100%;
+    }
+
+    .mate2 i {
+        width: 90%;
+    }
+
+    .mate3 i {
+        width: 85%;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .nav-left {
+        margin-left: 265px;
+    }
+}
+
+
+@media (max-width: 340px) {
+    .nav-left {
+        margin-left: 230px;
+    }
+
+    #nav.change {
+        width: 86%;
+    }
+
+    .nav-left {
+        width: 90%;
+    }
+
+    .nav-right {
+        width: 90%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .project-img {
+        height: 30%;
+        margin-top: -60px;
+    }
+
+    .project-box {
+        height: 400px;
+        width: 210px;
+    }
+
+    .mate i {
+        width: 70%;
+    }
+
+    .mate1 i {
+        width: 100%;
+    }
+
+    .mate2 i {
+        width: 90%;
+    }
+
+    .mate3 i {
+        width: 85%;
+    }
+
+    nav {
+        width: 20%;
+    }
+
+    .menu-bar {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .nav-left {
+        margin-left: 210px;
+    }
+}
+
+@media (max-width: 290px) {
+    .nav-left {
+        margin-left: 180px;
+    }
+}
