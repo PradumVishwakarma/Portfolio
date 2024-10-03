@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Pradum Vishwakarma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <div class="nav-left">
+                <div class="info">
+                    <div class="logo"></div>
+                    <p id="main-txt">Pradum Vishwakarma</p>
+                    <button id="main-btn">Web Developer</button>
+                </div>
+                <div class="details">
+                    <div class="email data">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div class="txt">
+                            <p id="det-high">EMAIL</p>
+                            <p id="det-low">pradum4556@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="phone data">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <div class="txt">
+                            <p id="det-high">PHONE</p>
+                            <p id="det-low">+91 8424916626</p>
+                        </div>
+                    </div>
+                    <div class="locat data">
+                        <i class="fa-solid fa-map-pin"></i>
+                        <div class="txt">
+                            <p id="det-high">LOCATION</p>
+                            <p id="det-low">Mumbai/Thane</p>
+                        </div>
+                    </div>
+                    <div class="dob data">
+                        <i class="fa-solid fa-cake-candles"></i>
+                        <div class="txt">
+                            <p id="det-high">BIRTHDAY</p>
+                            <p id="det-low">08/07/2003</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+            </div>
+
+            <div class="nav-right">
+                <div class="navbar">
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="index.html">About Me</a></li>
+                            <li><a href="about.html">Resume</a></li>
+                            <li><a href="project.html">Projects</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                        <div class="menu-bar" onclick="menubar()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="wrong" onclick="menubar()">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </nav>
+                </div>
+                <div class="main-contain">
+                    <p id="main-cont">Contact's</p>
+                </div>
+
+                <div class="contact">
+                    <div class="social">
+                        <p>Connect with Me: </p>
+                        <form action="https://api.web3forms.com/submit" target="_blank" method="POST">
+
+                            <input type="hidden" name="access_key" value="bf600aa0-b4db-4c78-80da-df8003838ac5">
+
+                            <input name="first_name" required id="name" type="text" placeholder="Enter Your Name: ">
+                            <input name="email" id="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                                type="email" required placeholder="Enter Your Email: ">
+                            <input name="mobile" id="mob" type="tel" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                                placeholder="Enter Your Moblie No: ">
+                            <textarea name="msg" id="txtarea" required placeholder="Enter Your Message"></textarea>
+                            <button id="cont-btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="social-med">
+                        <div class="media">
+                            <p>Social Media</p>
+                            <div class="media-link">
+                                <div class="inst">
+                                    <a href="https://www.instagram.com/_ig_pradum?igsh=MW5nNTR6dnN3c3QzMA=="
+                                        target="_blank">
+                                        <p>Instagram</p>
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                                <div class="inst">
+                                    <a href="https://www.facebook.com/pradum.vishwakaram/" target="_blank">
+                                        <p>FaceBook</p>
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+
+                                <div class="inst">
+                                    <a href="https://www.linkedin.com/in/pradum-vishwakarma-a1537a23a/" target="_blank">
+                                        <p>Linkedin</p>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="inst">
+                                    <a href="https://github.com/PradumVishwakarma" target="_blank">
+                                        <p>GitHub</p>
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
